@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://bit.ly/3IPWDbY);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.main {
+    position: absolute;
+    bottom: 0;
+    margin: 5%;
+    width: 40%;
+    padding: .5rem 1rem 1rem 1rem;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+}
+input {
+    color: red;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.1rem;
+}
+form div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#ziffer1, #ziffer2 {
+    display: inline;
+}
+
+#userInput {
+    width: 1rem;
+}
+#submitButton {
+    color: grey;
+}
